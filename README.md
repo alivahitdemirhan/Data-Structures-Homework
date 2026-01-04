@@ -1,103 +1,83 @@
-İçerikler:
+# 📚 Veri Yapıları ve Algoritmalar (Data Structures)
 
-1. Sparse Matrix Conversion
-
-* Normal (2D) matrisin **Sparse Matrix** gösterimine dönüştürülmesi
-* Sadece sıfır olmayan elemanlar saklanır
-* Bellek verimliliği sağlanır
+Bu repository, **Veri Yapıları** dersi kapsamında C programlama dili ile hazırlanmış ödevleri ve temel algoritma uygulamalarını içermektedir.
 
 ---
 
-2. Tower of Hanoi
+### 📂 Proje İçerikleri
 
-* Özyinelemeli (recursive) çözüm
-* n disk için **2^n − 1** hamle
-* Zaman karmaşıklığı: **O(2^n)**
+#### 1. Sparse Matrix Conversion
+* Normal (2D) matrisin **Sparse Matrix** gösterimine dönüştürülmesi.
+* Sadece sıfır olmayan elemanlar saklanarak **bellek verimliliği** sağlanır.
 
----
+#### 2. Tower of Hanoi
+* Özyinelemeli (recursive) çözüm mantığı.
+* $n$ disk için $2^n - 1$ hamle gerektirir.
+* Zaman karmaşıklığı: **O(2^n)**.
 
-3. Infix to Postfix (Shunting Yard Algorithm)
+#### 3. Infix to Postfix (Shunting Yard Algorithm)
+* Aritmetik ifadelerin **Infix → Postfix** dönüşümü.
+* **Stack (Yığın)** veri yapısı kullanımı.
+* Operatör öncelikleri (işlem sırası) dikkate alınır.
 
-* Aritmetik ifadelerin **Infix → Postfix** dönüşümü
-* Stack kullanımı
-* Operatör öncelikleri dikkate alınır
+#### 4. Max Heap & Min Heap
+* Dizi tabanlı Heap yapısı.
+* **Max Heap** ve **Min Heap** oluşturma algoritmaları.
+* `Heapify` ve `buildHeap` fonksiyonları.
 
----
+#### 5. Doubly Linked List
+* Çift yönlü bağlı liste yapısı.
+* Listeye ekleme, silme ve listeleme işlemleri.
+* **Recursive** (özyinelemeli) ve **Iterative** (döngüsel) silme fonksiyonları.
 
-4. Max Heap & Min Heap
+#### 6. Circular Linked List
+* Dairesel bağlı liste yapısı.
+* Başa ve sona düğüm (node) ekleme.
+* Listeyi dolaşma (Traversal).
 
-* Dizi tabanlı heap yapısı
-* **Max Heap** ve **Min Heap** oluşturma
-* Heapify ve buildHeap fonksiyonları
+#### 7. Array Üzerinde Ekleme ve Silme
+* Sabit boyutlu dizilerde eleman yönetimi.
+* Belirli bir indexten eleman silme ve ekleme.
+* Dizide eleman kaydırma (**Shift**) mantığı.
 
----
+#### 8. Graph Cluster Extraction
+* **Adjacency Matrix** (Komşuluk Matrisi) kullanımı.
+* **DFS tabanlı** küme (cluster) tespiti.
+* Graf üzerindeki bağlantılı bileşenlerin (Connected Components) çıkarılması.
 
-5. Doubly Linked List
+#### 9. DFS & BFS Uygulamaları
+* **Derinlik Öncelikli Arama** (DFS - Depth First Search).
+* **Genişlik Öncelikli Arama** (BFS - Breadth First Search).
+* Graf dolaşma (Graph Traversal) örnekleri.
 
-* Çift yönlü bağlı liste yapısı
-* Ekleme, silme ve listeleme işlemleri
-* Recursive ve iterative silme fonksiyonları
-
----
-
-6. Circular Linked List
-
-* Dairesel bağlı liste
-* Başa ve sona ekleme
-* Listeyi dolaşma (traversal)
-
----
-
-7. Array Üzerinde Ekleme ve Silme
-
-* Sabit boyutlu dizide eleman ekleme
-* Belirli indexten silme işlemi
-* Kaydırma (shift) mantığı
-
----
-
-### 8. Graph Cluster Extraction
-
-* Adjacency Matrix kullanımı
-* **DFS tabanlı** küme (cluster) bulma
-* Bağlantılı bileşenlerin çıkarılması
+#### 10. Array Kullanarak Tree Oluşturma
+* Binary Tree'nin (İkili Ağaç) dizi üzerinde temsili.
+* Root, Left Child ve Right Child ilişkilerinin kurulması.
+* Ağaç yapısının ekrana yazdırılması.
 
 ---
 
-9. DFS & BFS Uygulamaları
+### 🛠 Kullanılan Teknolojiler
 
-* Derinlik Öncelikli Arama (DFS)
-* Genişlik Öncelikli Arama (BFS)
-* Graph traversal örnekleri
-
----
-
-10. Array Kullanarak Tree Oluşturma
-
-* Binary Tree'nin dizi ile temsil edilmesi
-* Root, left ve right child ekleme
-* Ağaç yapısının yazdırılması
+* **Dil:** C Programlama Dili
+* **Derleyici:** GCC / Clang
+* **Ortam (IDE):** IntelliJ IDEA / VS Code
 
 ---
 
-🛠 Kullanılan Teknolojiler
+### 🎯 Amaç
 
-* Programlama Dili: **C**
-* Derleyici: GCC / Clang
-* IDE: IntelliJ IDEA / VS Code
-
----
-
-📚 Amaç
-
-Bu repository, veri yapıları konularını:
-
-* Temel mantığıyla
-* Okunabilir ve sade kod yapısıyla
-* Üniversite ödev standartlarına uygun şekilde
-  sunmayı amaçlamaktadır.
+Bu proje, veri yapıları konularını:
+* Temel mantığıyla kavramayı,
+* Okunabilir ve sade kod yapısı oluşturmayı,
+* Üniversite ödev standartlarına uygun algoritma geliştirmeyi amaçlamaktadır.
 
 ---
 
-👤Author: Ali Vahit Demirhan
-👤 Student Number:2310206008 
+### 👤 Öğrenci Bilgileri
+
+| Bilgi | Detay |
+| :--- | :--- |
+| **Ad Soyad** | Ali Vahit Demirhan |
+| **Öğrenci No** | 2310206008 |
+| **Bölüm** | Bilgisayar Mühendisliği |
