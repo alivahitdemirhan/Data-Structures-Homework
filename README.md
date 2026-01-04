@@ -100,3 +100,4 @@ Bu repository, veri yapıları konularını:
 ---
 
 👤Author: Ali Vahit Demirhan
+  Student Number:2310206008
